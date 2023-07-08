@@ -1,0 +1,31 @@
+{
+  "name": "@sl-code-lords/project-obfuscator",
+  "version": "1.0.0",
+  "description": "Obfuscate an entire JS project with a single click.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SL-CODE-LORDS/Project-Obfuscator.git"
+  },
+  "keywords": [
+    "Javascript-obfuscator",
+    "Javascript",
+    "Obfuscator",
+    "ob",
+    "js"
+  ],
+  "author": "Ravindu Manoj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SL-CODE-LORDS/Project-Obfuscator/issues"
+  },
+  "homepage": "https://github.com/SL-CODE-LORDS/Project-Obfuscator#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs": "^0.0.1-security",
+    "javascript-obfuscator": "^4.0.2"
+  }
+}

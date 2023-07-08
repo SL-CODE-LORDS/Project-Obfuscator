@@ -1,0 +1,21 @@
+const { obfuscate, BEST_NODE_HIGH_PERFORMANCE_CONFIG } = require('..')
+const main = './Normal/'
+const Ob_Path = './Obfuscate/'
+const Bin_Path = './.bin/'
+
+const Comment = {
+	top: 'Javascript Project Obfuscator\nCoded By Ravindu Manoj\n\nModified File : #filename#\nModified Date : #date#\nModified Time : #time#',
+	bottom: 'Powered By https://www.npmjs.com/package/@sl-code-lords/project-obfuscator',
+	dont_set : false,
+	timeZone : 'Asia/Colombo', // Time Zone For #time# && #date#
+	deactive : false //set value as true to deactive comments 
+}
+// keywords == #filename# && #date# && #time# 
+
+function obfuscateFolder() {
+	console.log('starting...')
+	obfuscate(main, Ob_Path, BEST_NODE_HIGH_PERFORMANCE_CONFIG,Comment,Bin_Path)
+	console.log(main + 'Folder Successfull Obfuscated To ' + Ob_Path)
+}
+
+obfuscateFolder()
